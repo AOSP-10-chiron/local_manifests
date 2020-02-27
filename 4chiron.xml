@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitlab"
+          fetch="https://https://gitlab.com/" />
+
+  <project name="AOSP-10-chiron/device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" revision="10" />
+  <project name="AOSP-10-chiron/android_device_xiaomi_chiron" path="device/xiaomi/chiron" remote="github" revision="10" />
+  <project name="AOSP-10/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="10" />
+  <project name="AOSP-10/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="10" />
+  <project name="AOSP-10/vendor_apps_OPScreenRecord" path="vendor/apps/OPScreenRecord" remote="github" revision="10" />
+  <project name="AOSP-10-chiron/vendor_xiaomi_chiron" path="vendor/xiaomi/chiron" remote="github" revision="10" />
+  <project name="AOSP-10-chiron/vendor_apps_MiuiCamera-chiron" path="vendor/apps/MiuiCamera-chiron" remote="github" revision="10" />
+  <project name="andr68rus/vendor_apps_firmware-chiron" path="vendor/apps/firmware-chiron" remote="gitlab" revision="10" />
+
+</manifest>
