@@ -1,6 +1,40 @@
 # Android Open Source Project #
 
-For Chiron
-Main repo by @sbwml here: https://github.com/AOSP-10
+### by https://github.com/AOSP-10 by @sbwml , addons for build chiron by @andr68rus ###
 
+```bash
 
+# Getting Started:
+
+repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r29 --depth=1
+
+git clone https://github.com/AOSP-10/local_manifests .repo/local_manifests -b 10
+
+# Put chiron manifiest from this repo 4chiron.xml to .repo/local_manifests
+
+# Then to sync up:
+
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
+### Build: ###
+
+```bash
+
+# Set up environment
+$ . build/envsetup.sh
+
+# Choose a target
+$ lunch aosp_chiron-userdebug
+
+# Build the code
+$ brunch chiron
+```
+
+### Change revision ###
+
+```bash
+
+$ repo init -b android-10.0.0_r29
+
+```
